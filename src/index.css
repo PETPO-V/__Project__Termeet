@@ -5,6 +5,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--termeetBkg);
+
+}
+
+.authorization {
+  display: flex;
+  padding: 80px 0px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 36px;
+}
+
+:root {
+  --termeetBkg : #F8FAFF;
+  --termeetBtn : #386DD4;
+  --termeetGrey : #959595;
+  --termeetLogo : #141C2C;
+  --termeetMain : #2F2F2F;
+  --termeetStroke : #E7E9ED;
 }
 
 code {

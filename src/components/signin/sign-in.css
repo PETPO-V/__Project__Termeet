@@ -1,0 +1,141 @@
+.sign-in {
+    display: flex;
+    width: 540px;
+    height: 100%;
+    padding: 60px 42px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 42px;
+
+    border-radius: 30px;
+    background: #FFF;
+}
+
+.sign-in-label {
+    color: #000;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.logo {
+    color: var(--termeet-logo);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+
+.sign-in-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+
+}
+
+.sign-in-inputs-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.sign-in-input-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+}
+
+.small-heading {
+    color: #000;
+    font-variant-numeric: lining-nums proportional-nums;
+
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.sign-in-input {
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+
+    border-radius: 10px;
+    border: 3px solid var(--termeetStroke);
+}
+
+::-webkit-input-placeholder {
+    color: var(--termeetGrey);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.sign-in-header-password {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+
+}
+
+.small-heading-button {
+    color: var(--termeetBtn);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.sign-in-bottom {
+    display: flex;
+
+    align-items:flex-end;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    text-decoration: none;
+}
+
+.sign-in-button {
+    display: flex;
+    padding: 10px 58px;
+    gap: 6px;
+
+    border-radius: 10px;
+    background: var(--termeetMain);
+
+
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+}
+

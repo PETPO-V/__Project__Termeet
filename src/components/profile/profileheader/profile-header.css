@@ -1,0 +1,74 @@
+.header {
+    display: flex;
+    height: 122px;
+    width: 100%;
+    padding: 16px 120px;
+    align-items: center;
+
+    background: var(--termeetBkg);
+    box-shadow: 0px 8px 30px 0px rgba(230, 237, 255, 0.50);
+
+}
+
+.header-logo-frame {
+    display: flex;
+    width: 302px;
+}
+
+.header-logo {
+    color: var(--termeetLogo);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.header-link-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    flex: 1 0 0;
+}
+
+.header-link {
+    display: flex;
+    color: var(--termeetMain);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.header-button-frame {
+    display: flex;
+    height: 42px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 16px;
+
+}
+
+.header-button {
+    padding: 10px 58px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+
+    border-radius: 10px;
+    border: 1px solid var(--termeetBtn);
+
+    color: var(--termeetBtn);
+    background: var(--termeetBkg);
+    font-variant-numeric: lining-nums proportional-nums;
+
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
