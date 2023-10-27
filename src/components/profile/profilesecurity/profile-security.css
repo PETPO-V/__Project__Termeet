@@ -1,0 +1,67 @@
+.profile-main-data.security {
+    align-items:flex-start;
+}
+
+.security-text {
+    color: #000;
+
+    font-variant-numeric: lining-nums proportional-nums;
+
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.security-buttons-frame {
+    display: flex;
+    padding: 0px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    border-radius: 16px;
+}
+
+.security-buttons-heading {
+    color: #000;
+
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    align-self: stretch;
+}
+
+.security-buttons-text {
+    color: var(--termeet-grey, #959595);
+    font-variant-numeric: lining-nums proportional-nums;
+
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    align-self: stretch;
+}
+
+.security-buttons-inner-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+}
+
+.security-buttons-heading.delete {
+    color: var(--termeetAttention);
+}
+
+.security-buttons-text.delete {
+    color: var(--termeetAttention);
+}
+

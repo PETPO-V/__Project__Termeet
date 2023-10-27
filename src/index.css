@@ -30,9 +30,12 @@ body {
   --termeetLogo : #141C2C;
   --termeetMain : #2F2F2F;
   --termeetStroke : #E7E9ED;
+  --termeetAttention: #FC3F1D;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+

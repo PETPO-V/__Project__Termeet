@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import './profile-header.css';
 
 const ProfileHeader = () => {
@@ -14,12 +13,14 @@ const ProfileHeader = () => {
                     <div className='header-link-frame'>
                         <span className="header-link">Мои встречи</span>
                         <span className="header-link">Команды</span>
-                        <span>0</span>
+                        <img src="eye.png" />
                     </div>
 
                     <div className='header-button-frame'>
                         <button className='header-button'>Создать встречу</button>
-                        <span>00</span>
+                        <div className='header-avatar-frame'>
+                            <img className='header-avatar'src="eye.png" />
+                        </div>
                     </div>
 
             </div>

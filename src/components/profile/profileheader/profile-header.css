@@ -3,6 +3,7 @@
     height: 122px;
     width: 100%;
     padding: 16px 120px;
+    box-sizing: border-box;
     align-items: center;
 
     background: var(--termeetBkg);
@@ -23,6 +24,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
+    
 }
 
 .header-link-frame {
@@ -31,6 +33,8 @@
     align-items: center;
     gap: 36px;
     flex: 1 0 0;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
 }
 
 .header-link {
@@ -42,6 +46,8 @@
     font-style: normal;
     font-weight: 600;
     line-height: 20px;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
 }
 
 .header-button-frame {
@@ -71,4 +77,23 @@
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+}
+
+.header-avatar-frame{
+    display: flex;
+    height: 42px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.header-avatar{
+    display: flex;
+    padding: 13px 13px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: var(--termeetMain);
 }
